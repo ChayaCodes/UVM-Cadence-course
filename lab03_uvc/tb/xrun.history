@@ -1,0 +1,36 @@
+#e1(11Sep2024:11:36:05): source ./xcelium.d/env.d/env.history.11Sep2024_11_36_05
+s1(11Sep2024:11:36:05):  xrun -f run.f 
+#e2(11Sep2024:11:39:23): source ./xcelium.d/env.d/env.history.11Sep2024_11_39_23
+s2(11Sep2024:11:39:23):  xrun -f run.f 
+#e3(11Sep2024:11:45:15): source ./xcelium.d/env.d/env.history.11Sep2024_11_45_15
+s3(11Sep2024:11:45:15):  xrun -f run.f 
+#e4(11Sep2024:12:53:53): source ./xcelium.d/env.d/env.history.11Sep2024_12_53_53
+s4(11Sep2024:12:53:53):  xrun -f run.f 
+#e5(11Sep2024:12:56:29): source ./xcelium.d/env.d/env.history.11Sep2024_12_56_29
+s5(11Sep2024:12:56:29):  xrun -f run.f 
+#e6(11Sep2024:13:14:06): source ./xcelium.d/env.d/env.history.11Sep2024_13_14_06
+s6(11Sep2024:13:14:06):  xrun -f run.f 
+#e7(11Sep2024:13:17:11): source ./xcelium.d/env.d/env.history.11Sep2024_13_17_11
+s7(11Sep2024:13:17:11):  xrun -f run.f 
+#e8(11Sep2024:13:26:05): source ./xcelium.d/env.d/env.history.11Sep2024_13_26_05
+s8(11Sep2024:13:26:05):  xrun -f run.f 
+#e9(11Sep2024:14:44:21): source ./xcelium.d/env.d/env.history.11Sep2024_14_44_21
+s9(11Sep2024:14:44:21):  xrun -f run.f 
+#e10(18Sep2024:10:26:57): source ./xcelium.d/env.d/env.history.18Sep2024_10_26_57
+s10(18Sep2024:10:26:57):  xrun -f run.f 
+#e11(18Sep2024:10:28:16): source ./xcelium.d/env.d/env.history.18Sep2024_10_28_16
+s11(18Sep2024:10:28:16):  xrun -f run.f 
+#e12(18Sep2024:10:45:41): source ./xcelium.d/env.d/env.history.18Sep2024_10_45_41
+s12(18Sep2024:10:45:41):  xrun -f run.f 
+#e13(18Sep2024:10:51:09): source ./xcelium.d/env.d/env.history.18Sep2024_10_51_09
+s13(18Sep2024:10:51:09):  xrun -gui -debug -f run.f 
+#e14(18Sep2024:10:51:27): source ./xcelium.d/env.d/env.history.18Sep2024_10_51_27
+s14(18Sep2024:10:51:27):  xrun -gui -debug -f run.f 
+#e15(18Sep2024:10:51:53): source ./xcelium.d/env.d/env.history.18Sep2024_10_51_53
+s15(18Sep2024:10:51:53):  xrun -f run.f -gui 
+#e16(18Sep2024:10:52:06): source ./xcelium.d/env.d/env.history.18Sep2024_10_52_06
+s16(18Sep2024:10:52:06):  xrun -f run.f 
+#e17(18Sep2024:10:53:01): source ./xcelium.d/env.d/env.history.18Sep2024_10_53_01
+s17(18Sep2024:10:53:01):  xrun -f run.f 
+#e18(18Sep2024:10:53:54): source ./xcelium.d/env.d/env.history.18Sep2024_10_53_54
+s18(18Sep2024:10:53:54):  xrun -f run.f 

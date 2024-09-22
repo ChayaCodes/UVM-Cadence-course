@@ -1,0 +1,22 @@
+#e1(19Sep2024:16:43:32): source ./xcelium.d/env.d/env.history.19Sep2024_16_43_32
+s1(19Sep2024:16:43:32):  xrun -f run.f 
+#e2(19Sep2024:16:44:41): source ./xcelium.d/env.d/env.history.19Sep2024_16_44_41
+s2(19Sep2024:16:44:41):  xrun -f run.f 
+#e3(19Sep2024:16:49:45): source ./xcelium.d/env.d/env.history.19Sep2024_16_49_45
+s3(19Sep2024:16:49:45):  xrun -f run.f -gui -access rwc 
+#e4(19Sep2024:16:53:00): source ./xcelium.d/env.d/env.history.19Sep2024_16_53_00
+s4(19Sep2024:16:53:00):  xrun -f run.f 
+#e5(19Sep2024:16:53:16): source ./xcelium.d/env.d/env.history.19Sep2024_16_53_16
+s5(19Sep2024:16:53:16):  xrun -f run.f 
+#e6(19Sep2024:16:54:36): source ./xcelium.d/env.d/env.history.19Sep2024_16_54_36
+s6(19Sep2024:16:54:36):  xrun -f run.f -gui -access rwc 
+#e7(19Sep2024:17:21:56): source ./xcelium.d/env.d/env.history.19Sep2024_17_21_56
+s7(19Sep2024:17:21:56):  xrun -f run.f -gui -access rwc 
+#e8(19Sep2024:17:22:22): source ./xcelium.d/env.d/env.history.19Sep2024_17_22_22
+s8(19Sep2024:17:22:22):  xrun -f run.f 
+#e9(19Sep2024:17:23:40): source ./xcelium.d/env.d/env.history.19Sep2024_17_23_40
+s9(19Sep2024:17:23:40):  xrun -f run.f -gui -access rwc 
+#e10(19Sep2024:18:01:35): source ./xcelium.d/env.d/env.history.19Sep2024_18_01_35
+s10(19Sep2024:18:01:35):  xrun -f run.f -gui -access rwc 
+#e11(19Sep2024:18:09:17): source ./xcelium.d/env.d/env.history.19Sep2024_18_09_17
+s11(19Sep2024:18:09:17):  xrun -f run.f -gui -access rwc "-s " 

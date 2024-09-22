@@ -1,0 +1,22 @@
+#e1(09Sep2024:21:45:34): source ./xcelium.d/env.d/env.history.09Sep2024_21_45_34
+s1(09Sep2024:21:45:34):  xrun -f run.f 
+#e2(09Sep2024:21:46:35): source ./xcelium.d/env.d/env.history.09Sep2024_21_46_35
+s2(09Sep2024:21:46:35):  xrun -f run.f 
+#e3(09Sep2024:21:54:22): source ./xcelium.d/env.d/env.history.09Sep2024_21_54_22
+s3(09Sep2024:21:54:22):  xrun -f run.f 
+#e4(09Sep2024:21:55:19): source ./xcelium.d/env.d/env.history.09Sep2024_21_55_19
+s4(09Sep2024:21:55:19):  xrun -f run.f 
+#e5(09Sep2024:21:56:35): source ./xcelium.d/env.d/env.history.09Sep2024_21_56_35
+s5(09Sep2024:21:56:35):  xrun -f run.f 
+#e6(09Sep2024:22:01:08): source ./xcelium.d/env.d/env.history.09Sep2024_22_01_08
+s6(09Sep2024:22:01:08):  xrun -f run.f 
+#e7(09Sep2024:22:01:37): source ./xcelium.d/env.d/env.history.09Sep2024_22_01_37
+s7(09Sep2024:22:01:37):  xrun -f run.f 
+#e8(10Sep2024:09:40:40): source ./xcelium.d/env.d/env.history.10Sep2024_09_40_40
+s8(10Sep2024:09:40:40):  xrun -f run.f 
+#e9(10Sep2024:09:42:17): source ./xcelium.d/env.d/env.history.10Sep2024_09_42_17
+s9(10Sep2024:09:42:17):  xrun -f run.f 
+#e10(10Sep2024:09:46:29): source ./xcelium.d/env.d/env.history.10Sep2024_09_46_29
+s10(10Sep2024:09:46:29):  xrun -f run.f 
+#e11(10Sep2024:09:51:46): source ./xcelium.d/env.d/env.history.10Sep2024_09_51_46
+s11(10Sep2024:09:51:46):  xrun -f run.f 

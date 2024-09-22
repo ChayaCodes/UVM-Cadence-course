@@ -1,0 +1,95 @@
+xrun(64): 24.03-s004: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.03-s004: Started on Sep 19, 2024 at 13:03:07 UTC
+xrun
+	-f run.f
+		-uvmhome /tools/cadence/XCELIUM/24.03.004/tools/methodology/UVM/CDNS-1.1d
+		-incdir ../sv
+		+UVM_VERBOSITY=UVM_LOW
+		+UVM_TESTNAME=set_config_test
+		../sv/yapp_pkg.sv
+		top.sv
+
+   User defined plus("+") options:
+	+UVM_VERBOSITY=UVM_LOW
+
+Loading snapshot worklib.top:sv .................... Done
+SVSEED default: 1
+xcelium> source /tools/cadence/XCELIUM/24.03.004/tools/xcelium/files/xmsimrc
+xcelium> source /tools/cadence/XCELIUM/24.03.004/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (24.03-s004)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test set_config_test...
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+----------------------------------------------------------------------
+Name                        Type                     Size  Value      
+----------------------------------------------------------------------
+uvm_test_top                set_config_test          -     @2584      
+  tb                        router_tb                -     @2680      
+    yapp_env                yapp_env                 -     @2722      
+      yapp_agent            yapp_tx_agent            -     @2753      
+        yapp_monitor        yapp_tx_monitor          -     @2787      
+          recording_detail  integral                 32    'd1        
+        is_active           uvm_active_passive_enum  1     UVM_PASSIVE
+        recording_detail    integral                 32    'd1        
+      recording_detail      integral                 32    'd1        
+    recording_detail        integral                 32    'd1        
+----------------------------------------------------------------------
+
+UVM_INFO ../sv/yapp_tx_monitor.sv(15) @ 0: uvm_test_top.tb.yapp_env.yapp_agent.yapp_monitor [MSG] runing yapp_tx_monitor run_phase
+UVM_INFO @ 0: uvm_test_top.tb [CFGNRD]  ::: The following resources have at least one write and no reads :::
+default_sequence [/^uvm_test_top\.tb\.yapp\.tx_agent\.sequencer\.run_phase$/] : (uvm_pkg::uvm_object_wrapper) '{}
+-  
+  --------
+  uvm_test_top reads: 0 @ 0  writes: 1 @ 0
+ 
+recording_detil [/^uvm_test_top\.tb\..*$/] : (logic signed[4095:0]) 1
+-  
+  --------
+  uvm_test_top.tb reads: 0 @ 0  writes: 1 @ 0
+ 
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    4
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[CFGNRD]     1
+[MSG]     1
+[RNTST]     1
+[UVMTOP]     1
+Simulation complete via $finish(1) at time 0 FS + 179
+/tools/cadence/XCELIUM/24.03.004/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	24.03-s004: Exiting on Sep 19, 2024 at 13:03:08 UTC  (total: 00:00:01)

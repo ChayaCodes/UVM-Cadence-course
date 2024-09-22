@@ -1,0 +1,22 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(11Sep2024:11:36:05):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.11Sep2024_11_36_05)
+s2::(11Sep2024:11:39:23):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.11Sep2024_11_39_23)
+s3::(11Sep2024:11:45:15):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.11Sep2024_11_45_15)
+s4::(11Sep2024:12:53:53):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.11Sep2024_12_53_53)
+s5::(11Sep2024:12:56:29):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.11Sep2024_12_56_29)
+s6::(11Sep2024:13:14:06):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.11Sep2024_13_14_06)
+s7::(11Sep2024:13:17:11):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.11Sep2024_13_17_11)
+s8::(11Sep2024:13:26:05):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.11Sep2024_13_26_05)
+s9::(11Sep2024:14:44:21):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.11Sep2024_14_44_21)
+s10::(18Sep2024:10:26:57):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.18Sep2024_10_26_57)
+s11::(18Sep2024:10:28:16):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.18Sep2024_10_28_16)
+s12::(18Sep2024:10:45:41):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.18Sep2024_10_45_41)
+s13::(18Sep2024:10:51:09):( xrun -gui -debug -f run.f )&&(./xcelium.d/env.d/env.history.18Sep2024_10_51_09)
+s14::(18Sep2024:10:51:27):( xrun -gui -debug -f run.f )&&(./xcelium.d/env.d/env.history.18Sep2024_10_51_27)
+s15::(18Sep2024:10:51:53):( xrun -f run.f -gui )&&(./xcelium.d/env.d/env.history.18Sep2024_10_51_53)
+s16::(18Sep2024:10:52:06):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.18Sep2024_10_52_06)
+s17::(18Sep2024:10:53:01):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.18Sep2024_10_53_01)
+s18::(18Sep2024:10:53:54):( xrun -f run.f )&&(./xcelium.d/env.d/env.history.18Sep2024_10_53_54)
