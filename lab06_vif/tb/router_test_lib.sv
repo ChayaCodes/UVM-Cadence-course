@@ -47,10 +47,10 @@ class base_test extends uvm_test;
       check_config_usage();
     endfunction
 
-    function void run_phase(uvm_phase phase);
+    task run_phase(uvm_phase phase);
       uvm_objection obj = phase.get_objection();
       obj.set_drain_time(this, 200ns);
-    endfunction
+    endtask
 
 
     
@@ -169,17 +169,18 @@ class base_test extends uvm_test;
   endclass
 
 
-  class 012_seq_test extends base_test;
+  class yapp_012_test extends base_test;
 
-    `uvm_component_utils(012_seq_test)
+    `uvm_component_utils(yapp_012_test)
 
-    function new(string name = "012_seq_test", uvm_component parent = null);
+    function new(string name = "yapp_012_test", uvm_component parent = null);
       super.new(name, parent);
     endfunction
 
     function void build_phase(uvm_phase phase);
+      yapp_packet::type_id::set_type_override(short_yapp_packet::get_type()); 
       uvm_config_wrapper::set(this, "tb.yapp.tx_agent.sequencer.run_phase", "default_sequence", yapp_012_seq::get_type());
-      super.build_phase()  
+      super.build_phase(phase);
     endfunction: build_phase
     
   endclass
