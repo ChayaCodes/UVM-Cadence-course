@@ -427,3 +427,6 @@ xcelium> ...Regained control from SimVision
 -------------------------------------
 
 xcelium> 
+xmsim: *W,CMUSEX: Control-D in interactive input - one more to exit.
+xcelium> exit
+TOOL:	xrun(64)	24.03-s004: Exiting on Sep 22, 2024 at 09:51:56 UTC  (total: 63:42:40)
