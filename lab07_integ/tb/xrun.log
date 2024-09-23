@@ -1,5 +1,5 @@
 xrun(64): 24.03-s004: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
-TOOL:	xrun(64)	24.03-s004: Started on Sep 23, 2024 at 13:42:36 UTC
+TOOL:	xrun(64)	24.03-s004: Started on Sep 23, 2024 at 19:45:56 UTC
 xrun
 	-f run.f
 		-64
@@ -27,16 +27,19 @@ xrun
    User defined plus("+") options:
 	+UVM_VERBOSITY=UVM_LOW
 
+Recompiling... reason: file '/project/uvma/users/chayakr/ws/UVMA_v1_2_5_rev2/uvm/channel/sv/channel_rx_sequencer.sv' is newer than expected.
+	expected: Wed Jan  2 13:43:30 2019
+	actual:   Mon Sep 23 19:31:43 2024
 Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /tools/cadence/XCELIUM/24.03.004/tools/methodology/UVM/CDNS-1.1d
+file: ../../channel/sv/channel_pkg.sv
+	package worklib.channel_pkg:sv
+		errors: 0, warnings: 0
 file: ../../clock_and_reset/sv/clock_and_reset_pkg.sv
 package clock_and_reset_pkg;
                           |
 xmvlog: *W,TSNSPK (../../clock_and_reset/sv/clock_and_reset_pkg.sv,3|26): `timescale is not specified for the package.  The default timescale of 1ns/1ns will be assumed for this package.
 file: tb_top.sv
 	module worklib.tb_top:sv
-		errors: 0, warnings: 0
-file: hw_top.sv
-	module worklib.hw_top:sv
 		errors: 0, warnings: 0
 		Caching library 'worklib' ....... Done
 	Elaborating the design hierarchy:
@@ -54,40 +57,10 @@ file: hw_top.sv
 		hw_top
 	Building instance overlay tables: .................... Done
 	Generating native compiled code:
-		worklib.fifo:sv <0x3be12133>
-			streams:  11, words:  5521
-		worklib.port_fsm:sv <0x092bd148>
-			streams:  32, words: 20372
-		worklib.host_ctl:sv <0x521eaa2c>
-			streams:  20, words: 14640
-		worklib.yapp_router:sv <0x77ab6e02>
-			streams:  18, words:  4417
-		worklib.clkgen:sv <0x75e64219>
-			streams:   2, words:   875
-		worklib.tb_top:sv <0x15221407>
+		worklib.tb_top:sv <0x617cc757>
 			streams:  86, words: 68976
-		worklib.clock_and_reset_pkg:sv <0x1db74ccb>
-			streams: 523, words: 609013
-		worklib.channel_pkg:sv <0x795eaee2>
+		worklib.channel_pkg:sv <0x41d5c8b7>
 			streams: 598, words: 752716
-		worklib.clock_and_reset_if:sv <0x50de3479>
-			streams:   9, words:  2099
-		worklib.hw_top:sv <0x6b0fcd41>
-			streams:  23, words:  5568
-		worklib.hbus_if:sv <0x7f4e0d8f>
-			streams: 837, words: 992802
-		worklib.channel_if:sv <0x0becbf30>
-			streams:   5, words:  8240
-		worklib.yapp_if:sv <0x3f693b34>
-			streams: 734, words: 856726
-		worklib.cdns_uvm_pkg:sv <0x1b4f1e8d>
-			streams: 172, words: 248139
-		worklib.cdns_uvmapi:svp <0x0745dd90>
-			streams:  27, words: 28687
-		worklib.cdns_assert2uvm_pkg:sv <0x2d6d1166>
-			streams:   3, words:  1654
-		worklib.uvm_pkg:sv <0x65785331>
-			streams: 4542, words: 6810932
 	Building instance specific data structures.
 	Loading native compiled code:     .................... Done
 	Design hierarchy summary:
@@ -454,4 +427,4 @@ UVM_FATAL :    0
 Simulation complete via $finish(1) at time 290 NS + 49
 /tools/cadence/XCELIUM/24.03.004/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
 xcelium> exit
-TOOL:	xrun(64)	24.03-s004: Exiting on Sep 23, 2024 at 13:42:46 UTC  (total: 00:00:10)
+TOOL:	xrun(64)	24.03-s004: Exiting on Sep 23, 2024 at 19:46:02 UTC  (total: 00:00:06)
