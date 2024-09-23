@@ -33,5 +33,3 @@ class channel_rx_sequencer extends uvm_sequencer #(channel_resp);
   endfunction: build_phase
 
 endclass : channel_rx_sequencer
-
-
