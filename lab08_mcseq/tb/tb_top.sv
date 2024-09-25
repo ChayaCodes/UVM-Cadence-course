@@ -29,6 +29,12 @@ module tb_top;
   // import the clock and reset UVC package
   import clock_and_reset_pkg::*;
 
+  // include the multichannel sequencer
+  `include "router_mcsequencer.sv"
+
+  // include the multichannel sequencer sequences
+  `include "router_mcseqs_lib.sv"
+
   // include the router testbench file
   `include "router_tb.sv"
 

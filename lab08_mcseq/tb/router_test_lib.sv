@@ -111,3 +111,28 @@ class test_uvc_integration extends base_test;
 
 endclass : test_uvc_integration
 
+
+class test_mc extends base_test;
+  `uvm_component_utils(test_mc)
+
+  function new(string name = "test_mc", uvm_component parent = null);
+    super.new(name, parent);
+  endfunction 
+
+  function void build_phase(uvm_phase phase);
+
+
+  yapp_packet::type_id::set_type_override(short_yapp_packet::get_type());
+
+  uvm_config_wrapper::set(this, "tb.clock_and_reset.agent.sequencer.run_phase",
+                            "default_sequence",
+                            clk10_rst5_seq::get_type());
+    uvm_config_wrapper::set(this, "tb.chan?.rx_agent.sequencer.run_phase",
+                            "default_sequence",
+                            channel_rx_resp_seq::get_type());
+  uvm_config_wrapper::set(this, "tb.mcsequencer.run_phase", "default_sequence",  router_simple_mcseq::get_type());
+
+  super.build_phase(phase);
+endfunction : build_phase
+
+endclass: router_test_lib
